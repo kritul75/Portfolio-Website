@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Kritul</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83fa242afd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!-- ------------------------head section start----------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 style="letter-spacing: 0.3cap; font-size: 35px; cursor: pointer;"><b><span style="color: #ff004f; ;">K</span>ritul.</b></h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Kritul</span> <br>Verma from India</h1>
+                <a href="mailto:kritul.verma.75@gmail.com"
+                 class="btn btn-email">Hire Me</a>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------about section start------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>People-oriented Computer Science Engineering Student - M.C.A Postgraduate, Creative Website Developer with training and experience in developing Websites using MERN. Got a great knowledge of Web-App Development by MERN for best performance and Advanced Knowledge of Programming Languages like C, C++, Java. Skilled in Communication, English, Management, Leadership, and Engineering.</p>
+
+                    <div class="tab-titles">
+                      <p class="tab-links active-link" onmouseover="opentab('skills')">Skills</p>
+                      <p class="tab-links" onmouseover="opentab('experience')">Experience</p>
+                      <p class="tab-links" onmouseover="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web Designer</span><br>Designing Websites</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Freelancing as a web developer</li>
+                            <li><span>2020-2023</span><br>Web Development training at Arera Animations</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2023-Current</span><br>Master in Computer Applications at LNCT</li>
+                            <li><span>2020-2023</span><br>Bachelor of Computer Applications at BSSS, Bhopal</li>
+                            <li><span>2019-2020</span><br>Web Design training at Arera Animations</li>
+                        </ul>
+                    </div>
+                    <a href="/images/my-cv.pdf"
+                download class="btn btn-cv-download">Download Cv</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------services----------------------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Web Design</h2>
+                <p>Got a good knowledge of HTML, CSS, React and also some advanced CSS framework like Bootstrap, Tailwind.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web App Development</h2>
+                <p>Got a strong command on Back-end Technologies like PHP, Node.js, with a good knowledge of DBMS</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Certified UI/UX designer and can create eye catching design.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------portfolio---------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Weather Webapp</h3>
+                    <p>The website shows the weather of different locations</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Voice Assisted news Webapp</h3>
+                    <p>The website gives of the latest news and can be operated through voice commands.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>The website lets you sell buy goods online.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------------------contact---------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div><i class="fa-solid fa-paper-plane"></i>kritul.verma.75@gmail.com</div>
+                <div><i class="fa-solid fa-square-phone"></i>8808962965</div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <span id="msg"></span>
+                    <button type="submit" class="btn btn-cv">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <span>&copy</span> Kritul. Made by Kritul</p>
+    </div>
+</div>
+
+    <script src="main.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbya1YR2CS2C6R-15Ye_Pw75KRLR2Z3ZeKXIaoE_jjmnk5LouXdp-k8Z0A1S9zHRj_V3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        
+        const msg=document.getElementById("msg");
+        
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
